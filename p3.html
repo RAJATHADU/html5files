@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-5</title>
+</head>
+<body>
+        <center>
+            <h2>DATALIST TAG</h2>
+            <p>This tag is used to provide an auto complete feature on form element</p>
+        </center>
+        <hr>
+
+        <h2>DROPDOWN TAG OR SELECT OPTION TAG</h2>
+        <select name="players" id="players">
+            <option value="">Rajatha</option>
+            <option value="">Aajatha</option>
+            <option value="">Sajatha</option>
+            <option value="">Pajatha</option>
+            <option value="">Vajatha</option>
+            <option value="">Hajatha</option>
+            <option value="">Iajatha</option>
+        </select>
+        <hr>
+
+
+        <!-- To display the content of datalist tag list and id should be same -->
+        <h2>Datalist Tag</h2>
+        <input type="text" list="cccc" placeholder="cricket players">
+        <datalist id="cccc">
+            <option>Rajatha</option>
+            <option>Aajatha</option>
+            <option>Sajatha</option>
+            <option>Pajatha</option>
+            <option>Vajatha</option>
+            <option>Hajatha</option>
+            <option>Iajatha</option>
+            <option value="ali">
+                <option value="sunil"></option>
+                <option value="">sl</option>
+                <!-- this above line will not execute bcz value attribute is not given -->
+                <option value="raj">jar</option>
+        </datalist>
+        
+</body>
+</html>
